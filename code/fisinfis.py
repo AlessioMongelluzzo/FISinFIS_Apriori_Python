@@ -52,9 +52,6 @@ class FISinFIS:
 
         self.df = pd.read_csv(os.path.join(data_folder, csv_name))
 
-        #reduce df for test here
-        self.df = self.df[:100] # to be removed
-
         print("df shape:\t{}".format(self.df.shape))
         self.df.reset_index(drop=True, inplace=True)
         descr_dict_path = os.path.join(self.aux_folder, "{}_description_dict.pkl".format(csv_name))

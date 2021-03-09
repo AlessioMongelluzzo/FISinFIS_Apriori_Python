@@ -22,7 +22,7 @@ example:
  python3 fisinfis.py -topN 0.99 -ms 0.05 -mc 0.6 -MIDF 95 -ml 1.01 -df "/Users/alessiomongelluzzo/Downloads/archive/" -csv "snli_1.0_train.csv" -vc sentence1 sentence2 -lang "English"
  ```
 ### Import
-N.B.: the following example application was performed on the first 100 rows of Stanford Natural Language Inference Corpus train datasaet publicly available [here](https://www.kaggle.com/stanfordu/stanford-natural-language-inference-corpus).
+N.B.: the following example application was performed on the first 100 rows of Stanford Natural Language Inference Corpus train dataset publicly available [here](https://www.kaggle.com/stanfordu/stanford-natural-language-inference-corpus).
 ```python
 from fisinfis import FISinFIS
 f = FISinFIS(topN = 0.99, min_supp=0.05, min_conf=0.6, max_IDF_percentile=95, min_lift=1.01)

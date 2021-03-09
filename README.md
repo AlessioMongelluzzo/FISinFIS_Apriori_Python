@@ -30,22 +30,22 @@ f.initialize(data_folder="/archive/", csv_name="snli_1.0_train.csv",
              verbose_cols=["sentence1", "sentence2"])
 f.cleanse(lang="english")
 ```
-![top30](https://github.com/AlessioMongelluzzo/FISinFIS-Apriori-Python/blob/main/examples/cleanse_top30.jpg)
+![top30](https://github.com/AlessioMongelluzzo/FISinFIS_Apriori_Python/blob/master/examples/cleanse_top30.jpg)
 ```python
 f.move_to_sparse()
 f.algorithm1()
 ```
-![algo11](https://github.com/AlessioMongelluzzo/FISinFIS-Apriori-Python/blob/main/examples/algo11_idf.jpg)
-![algo12](https://github.com/AlessioMongelluzzo/FISinFIS-Apriori-Python/blob/main/examples/algo12_sup.jpg)
+![algo11](https://github.com/AlessioMongelluzzo/FISinFIS_Apriori_Python/blob/master/examples/algo11_idf.jpg)
+![algo12](https://github.com/AlessioMongelluzzo/FISinFIS_Apriori_Python/blob/master/examples/algo12_sup.jpg)
 ```python
 f.algorithm2()
 f.plot_ARs_graphs() # saves AR graph representation on disk
 ```
-![plotar](https://github.com/AlessioMongelluzzo/FISinFIS-Apriori-Python/blob/main/examples/AR_game.jpg)
+![plotar](https://github.com/AlessioMongelluzzo/FISinFIS_Apriori_Python/blob/master/examples/AR_game.jpg)
 ```python
 f.show_stem_transactions(["walk", "pizza"]) # shows info about items and transactions containing stemmed items
 ```
-![show_stem](https://github.com/AlessioMongelluzzo/FISinFIS-Apriori-Python/blob/main/examples/show_stem.jpg)
+![show_stem](https://github.com/AlessioMongelluzzo/FISinFIS_Apriori_Python/blob/master/examples/show_stem.jpg)
 ## Reference
 <a id="1">[1]</a> 
 Mahmood, S., Shahbaz, M., & Guergachi, A. (2014). Negative and positive association rules mining from text using frequent and infrequent itemsets. The Scientific World Journal, 2014.

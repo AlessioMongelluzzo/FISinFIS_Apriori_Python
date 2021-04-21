@@ -19,7 +19,7 @@ python3 fisinfis.py -topN TOPN -ms MINSUPP -mc MINCONF -MIDF MAXIDF_PERC -ml MIN
 ```
 example:
 ```bash
- python3 fisinfis.py -topN 0.99 -ms 0.05 -mc 0.6 -MIDF 95 -ml 1.01 -df "/Users/alessiomongelluzzo/Downloads/archive/" -csv "snli_1.0_train.csv" -vc sentence1 sentence2 -lang "English"
+ python3 fisinfis.py -topN 0.99 -ms 0.05 -mc 0.6 -MIDF 95 -ml 1.01 -df "/Users/alessiomongelluzzo/Downloads/archive/" -csv "snli_1.0_train.csv" -vc sentence1 sentence2 -lang "english"
  ```
 ### Import
 N.B.: the following example application was performed on the first 100 rows of Stanford Natural Language Inference Corpus train dataset publicly available [here](https://www.kaggle.com/stanfordu/stanford-natural-language-inference-corpus).

@@ -7,6 +7,8 @@ Python implementation of FISinFIS Apriori algorithm for PAR and NAR generation f
 - [networkx](https://networkx.org/)
 - pandas
 - seaborn
+- scipy
+- matplotlib
 
 ## Usage
 The following examples require to change directory to FISinFIS_Apriori_Python/code before running the code.
